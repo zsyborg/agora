@@ -10,7 +10,7 @@ import { useWallet } from "@solana/wallet-adapter-react";
 import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 
 
-import { transferCNFT } from './web3/transferCNFT';
+// import { transferCNFT } from './web3/transferCNFT';
 import axios from "axios";
 import { animate } from 'motion';
 import { createThemeStyle } from '@arwes/theme';
