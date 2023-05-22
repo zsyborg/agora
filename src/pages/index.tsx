@@ -31,7 +31,6 @@ import {
 import airdrop from '../final-1.json'
 
 
-import NFTCard from '../components/NFTCard';
 import App from './_app';
 // import Displaynft from '../web3/GetNFT';
 const connection = "https://rpc.helius.xyz/?api-key=4adfbec4-c143-499a-99b6-55d3638d20a4";
