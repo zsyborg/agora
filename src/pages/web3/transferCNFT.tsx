@@ -12,8 +12,8 @@ import * as bs58 from "bs58";
 export async function transferCNFT(asset: string, owner: string) {
     // const keypair = loadWalletKey("CNFTr56CpwLA8jrAbFfvMn4MJznNCaYoKvTkTgMgfinL.json");
     const keypair = new PublicKey("mfiJeLkWueenob2H2c6wPUYw4qLoGonE1tsnSBm7hjm");
-    const ky = Keypair.fromSecretKey(
-      new Uint8Array([245,211,157,99,36,81,121,199,16,95,48,67,75,211,52,172,125,36,45,49,73,220,133,44,253,240,207,84,190,23,190,40,11,113,83,218,201,120,126,154,2,32,4,27,71,146,234,207,154,175,77,5,75,43,218,118,226,169,57,95,63,150,152,0]));
+    // const ky = Keypair.fromSecretKey(
+    //   new Uint8Array([245,211,157,99,36,81,121,199,16,95,48,67,75,211,52,172,125,36,45,49,73,220,133,44,253,240,207,84,190,23,190,40,11,113,83,218,201,120,126,154,2,32,4,27,71,146,234,207,154,175,77,5,75,43,218,118,226,169,57,95,63,150,152,0]));
     const connection = new Connection("https://rpc.helius.xyz/?api-key=4adfbec4-c143-499a-99b6-55d3638d20a4");
     // const merkleTree = loadWalletKey("trRxrSbpQDtezi6fDyqRgAMVZ27mfTpRozNCihf3xv2.json").publicKey;
     const merkleTree = new PublicKey("trRxrSbpQDtezi6fDyqRgAMVZ27mfTpRozNCihf3xv2");

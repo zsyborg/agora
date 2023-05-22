@@ -13,6 +13,7 @@ let connection = new Connection("https://api.mainnet-beta.solana.com");
 
 let privateKeyString = "246,170,12,188,104,163,81,79,193,189,239,17,25,39,249,44,198,186,235,74,21,56,95,183,78,181,18,104,154,20,113,206,168,226,27,60,122,101,132,16,40,78,25,235,128,151,46,209,80,93,238,246,171,244,111,131,24,87,50,199,20,238,44,169";
 
+
 // console.log(privateKeyString);
 
 // let secret = new Uint8Array(base58.decode(privateKeyString));
@@ -29,7 +30,7 @@ let recipientWallet = new PublicKey(
 
 
 function loadWalletKey(keypairFile) {
-  const fs = require("fs")
+  // const fs = require("fs")
   return Keypair.fromSecretKey(
     new Uint8Array(JSON.parse(fs.readFileSync(keypairFile).toString())),
   );
