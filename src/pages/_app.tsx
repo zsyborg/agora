@@ -7,7 +7,7 @@ const endpoint = "https://rpc.helius.xyz/?api-key=4adfbec4-c143-499a-99b6-55d363
 
 
 const ConnectWallet = dynamic(
-  () => import("./web3/WalletProvider"),
+  () => import("../web3/WalletProvider"),
   {
     ssr: false,
   }

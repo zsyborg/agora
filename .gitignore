@@ -33,13 +33,14 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-src/pages/web3/node_modules/*
+src/web3/node_modules/*
 
 # Secure
-src/pages/web3/catmvpSWYqvDQemnfPWfH95umTGNF3xPkXLbqJMETRg.json
-src/pages/web3/CNFTr56CpwLA8jrAbFfvMn4MJznNCaYoKvTkTgMgfinL.json
-src/pages/web3/cattNiXLsCNVEK4JzAqJmX5FQz92e1MGiftmNN9xpXz.json
-src/pages/web3/jaSMZXkYpryPSVg9zELUa22nFXKXq9JU25QTh82HBui.json
+src/web3/catmvpSWYqvDQemnfPWfH95umTGNF3xPkXLbqJMETRg.json
+src/web3/CNFTr56CpwLA8jrAbFfvMn4MJznNCaYoKvTkTgMgfinL.json
+src/web3/cattNiXLsCNVEK4JzAqJmX5FQz92e1MGiftmNN9xpXz.json
+src/web3/jaSMZXkYpryPSVg9zELUa22nFXKXq9JU25QTh82HBui.json
 
-src/pages/web3/GetNFT.tsx
-src/pages/web3/transferCNFT.tsx
+src/web3/GetNFT.tsx
+src/web3/transferCNFT.tsx
+src/pages/web3/0.json

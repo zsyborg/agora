@@ -125,7 +125,7 @@ const handlePlay = (ast: any, id: any) => {
 
   let wlt = airdrop.filter(a => a.uri === id)
   console.log("Sent to: " + wlt[0].wallet)
-  transferCNFT(ast, wlt[0].wallet)
+  // transferCNFT(ast, wlt[0].wallet)
 
 };
 
