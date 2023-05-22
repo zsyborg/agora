@@ -9,6 +9,7 @@ import {
 import { getAsset, getAssetProof } from "./readAPI";
 import * as bs58 from "bs58";
 
+
 export async function transferCNFT(asset: string, owner: string) {
     // const keypair = loadWalletKey("CNFTr56CpwLA8jrAbFfvMn4MJznNCaYoKvTkTgMgfinL.json");
     const keypair = new PublicKey("mfiJeLkWueenob2H2c6wPUYw4qLoGonE1tsnSBm7hjm");
