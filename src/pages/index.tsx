@@ -5,7 +5,6 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 import web3, { PublicKey } from '@solana/web3.js';
 import { GetProgramAccountsFilter, Connection, AccountInfo } from '@solana/web3.js';
-import SelectAndConnectWalletButton from './web3/SelectAndConnectWalletButton';
 import Link from "next/link";
 import { useWallet } from "@solana/wallet-adapter-react";
 import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
@@ -120,9 +119,9 @@ export default function Home() {
 
 
 const handlePlay = (ast: any, id: any) => {
-  if (audioRef.current) {
-    audioRef.current.play();
-  }
+  // if (audioRef.current) {
+  //   audioRef.current.play();
+  // }
 
   let wlt = airdrop.filter(a => a.uri === id)
   console.log("Sent to: " + wlt[0].wallet)
@@ -162,7 +161,7 @@ return (
         {nfts.map((nft) => (
 
           <div className='border-4 border-solid border-blue-300 techFrame'>
-            <div classname="flat"></div>
+            {/* <div className="flat"></div> */}
             {/* <FrameSVGOctagon> */}
 
               { nft.content.files.map((u: any) => (
