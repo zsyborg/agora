@@ -32,7 +32,7 @@ let recipientWallet = new PublicKey(
 function loadWalletKey(keypairFile) {
   // const fs = require("fs")
   return Keypair.fromSecretKey(
-    new Uint8Array(JSON.parse(fs.readFileSync(keypairFile).toString())),
+    // new Uint8Array(JSON.parse(fs.readFileSync(keypairFile).toString())),
   );
 }
 
