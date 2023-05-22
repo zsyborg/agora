@@ -6,7 +6,7 @@ import { useConnection, useWallet } from '@solana/wallet-adapter-react';
 import { FC, useState, useEffect } from 'react';
 import axios from "axios";
 import { data } from 'autoprefixer';
-import NFTCard from '../components/NFTCard';
+// import NFTCard from '../components/NFTCard';
 
 let dt = "";
 // const { connection } = useConnection();
@@ -69,7 +69,7 @@ let cnft = '';
 const Displaynft = (dt: any) =>{
   return(
     <div>
-      <NFTCard name={dt} />
+      {/* <NFTCard name={dt} /> */}
       {/* <p>{dt}</p> */}
     </div>
   )

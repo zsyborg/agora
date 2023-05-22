@@ -41,4 +41,4 @@ src/pages/web3/CNFTr56CpwLA8jrAbFfvMn4MJznNCaYoKvTkTgMgfinL.json
 src/pages/web3/cattNiXLsCNVEK4JzAqJmX5FQz92e1MGiftmNN9xpXz.json
 src/pages/web3/jaSMZXkYpryPSVg9zELUa22nFXKXq9JU25QTh82HBui.json
 
-/src/components/NFTCard.js
+src/pages/web3/GetNFT.tsx
