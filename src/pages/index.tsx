@@ -26,7 +26,7 @@ import {
   ANIMATOR_DEFAULT_SETTINGS,
   createAnimatorSystem
 } from '@arwes/animator';
-import { FrameSVGOctagon, FrameSVGCorners } from '@arwes/react-frames';
+// import { FrameSVGOctagon, FrameSVGCorners } from '@arwes/react-frames';
 
 import airdrop from '../final-1.json'
 
@@ -164,7 +164,7 @@ return (
 
           <div className='border-4 border-solid border-blue-300 techFrame'>
             <div classname="flat"></div>
-            <FrameSVGOctagon>
+            {/* <FrameSVGOctagon> */}
 
               { nft.content.files.map((u: any) => (
                 
@@ -193,7 +193,7 @@ return (
               {/* Render other NFT properties */}
       {/* </Text>
     </Animator> */}
-            <FrameSVGOctagon></FrameSVGOctagon>
+            {/* <FrameSVGOctagon></FrameSVGOctagon> */}
               <br/>
                   <br/>
                     <a onClick={() => handlePlay(nft.id,  nft.content.metadata.name.replace("MechCats #", ""))} id="bleep" className='text-gray-100 bg-sky-700 hover:bg-fuchsia-950 px-8 py-2 bleep'>Send</a>

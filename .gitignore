@@ -34,7 +34,11 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 src/pages/web3/node_modules/*
+
+# Secure
 src/pages/web3/catmvpSWYqvDQemnfPWfH95umTGNF3xPkXLbqJMETRg.json
 src/pages/web3/CNFTr56CpwLA8jrAbFfvMn4MJznNCaYoKvTkTgMgfinL.json
 src/pages/web3/cattNiXLsCNVEK4JzAqJmX5FQz92e1MGiftmNN9xpXz.json
 src/pages/web3/jaSMZXkYpryPSVg9zELUa22nFXKXq9JU25QTh82HBui.json
+
+/src/components/NFTCard.js
