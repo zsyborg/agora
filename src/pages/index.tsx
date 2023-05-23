@@ -247,7 +247,7 @@ const ListNFT = () => {
 
 return (
   <main
-      className='relative flex min-h-screen items-center flex-col justify-center overflow-hidden'
+      className='relative flex flex-col justify-center overflow-hidden'
     >
       
 
@@ -273,12 +273,12 @@ return (
       
         {/* {publicKey ? <><TheTabs nftdb={nfts}/></> : <span></span>} */}
         {publicKey ? <>
-        <div>
+        <div className='text-center'>
         <TabSelector
     isActive={selectedTab === "mynft"}
         onClick={() => setSelectedTab("mynft")}
         >
-        My Precioush NFTsh!!
+        My Precious NFTs!!
         </TabSelector>
         <TabSelector
         isActive={selectedTab === "marketplace"}
