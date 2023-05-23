@@ -13,7 +13,7 @@ export default function Document() {
             content="AgorA - Solana's First cNFT Marketplace to bring forth a change and put back the Soul in SOL"
           />
           <meta name="author" content="AgoriA" />
-          <link rel="shortcut icon" href="/img/favicon.ico" />
+          <link rel="shortcut icon" href="/favicon.ico" />
       <Head />
       <body>
         <Main />
