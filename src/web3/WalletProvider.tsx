@@ -63,7 +63,7 @@ export function ConnectWallet (
     
     {/* <ConnectionProvider endpoint={endpoint}> */}
       {/* <WalletProvider wallets={wallets} autoConnect> */}
-      <WalletProvider wallets={wallets} {...props} autoConnect>
+      <WalletProvider wallets={wallets} {...props}>
         <WalletModalProvider {...props} />
           {/* <WalletMultiButton /> */}
           {/* <WalletMultiButtonDynamic />  */}

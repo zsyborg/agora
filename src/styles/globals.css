@@ -30,6 +30,22 @@ background-size: cover; */
 
 }
 
+a:hover{
+  cursor: url(../../public/Alternateselect.ani);
+}
+button{
+  cursor: url(../../public/Alternateselect.ani) !important;
+}
+.btncur:hover{
+  cursor: url(../../public/Alternateselect.ani) !important;
+}
+.btncur{
+  cursor: url(../../public/Alternateselect.ani) !important;
+}
+.wallet-adapter-button{
+  cursor: url(../../public/Alternateselect.ani) !important;
+}
+
 
 .heading{
   font-size: 2em;
@@ -37,13 +53,9 @@ background-size: cover; */
 
 
 .techFrame{
-  /* border-top-left-radius: 5em;
-  border-bottom-right-radius: 5em; */
   overflow: hidden;
-  /* Vector 116 */
-  box-shadow: 0px 1px 6px rgb(147 197 253);
+  box-shadow: 0px 1px 6px rgb(255, 255, 255);
   background-color: rgba(0,0,0,0);
-
 }
 
 .flat{
@@ -52,11 +64,5 @@ background-size: cover; */
     margin:-20px;
     width:40px;
     height:40px;
-    transform:rotate(45deg);
     background-color:#555;
-     
-    -webkit-transform:rotate(45deg);
-    -moz-transform:rotate(45deg);
-    -ms-transform:rotate(45deg);
-    -o-transform:rotate(45deg);
 }
