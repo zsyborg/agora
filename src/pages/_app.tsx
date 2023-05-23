@@ -25,7 +25,7 @@ async function applyCursor(selector, aniUrl) {
 }
 
 // applyCursor("#main", "https://archive.org/cors/tucows_169906_Pizza_cursor/pizza.ani");
-// applyCursor("#main", "https://www.agoracnft.io/linkselect.ani");
+applyCursor("#main", "https://www.agoracnft.io/linkselect.ani");
 
 export default function App({ Component, pageProps }: AppProps) {
   
